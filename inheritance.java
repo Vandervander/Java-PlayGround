@@ -46,5 +46,15 @@ public class inheritance {
 		System.out.println("Use Bar to reset j to 13");
 		bar.setJ(13);
 		System.out.println("Bar.getJ = "+bar.getJ()+" SuperBar.getJ = "+superBar.getJ());
+		
+		//
+		//!!!!!			Output spoilers			!!!!!
+		//
+		//SuperBar.i = 10
+		//Bar.getBarI = 9
+		//bar.getI = 6
+		//Bar.getJ = 42 SuperBar.getJ = 42
+		//Use Bar to reset j to 13
+		//Bar.getJ = 13 SuperBar.getJ = 13
 	}
 }

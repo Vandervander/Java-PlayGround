@@ -56,5 +56,26 @@ public class reflection{
 				System.out.println("Exception: " + e +"\n");
 			}
 		}
+		//
+		//!!!!!			Output Spoilers 		!!!!!
+		//
+		//Class Name: Foo
+
+		//Field1: public int Foo.i
+		//Value of i set to 99, success: true
+
+		//Field2: private int Foo.j
+		//Value of j set to 99, success: true
+
+		//Field3: private java.lang.String Foo.s
+		//Type Exception: Can not set java.lang.String field Foo.s to java.lang.Integer
+
+		//Method1: private java.lang.String Foo.method(java.lang.String)
+		//Method run, result: Y
+
+		//Method2: public boolean Foo.bar(java.lang.String)
+		//Method run, result: true
+
+
 	}
 }
