@@ -59,7 +59,7 @@ public class cloning {
 		//Create list, add items to it
 		CloneList<Item> words = new CloneList<Item>();
 		words.add(new ItemString("Yes"));
-		words.add(new ItemString("Hoiwihknsf lhvLKVhLKVHKgvsgkhldvgkl"));
+		words.add(new ItemString("A short story about a rabbit that attempted to run accross the road: Splat"));
 		words.add(words);
 			//Nested items to crash the clone method
 			//CloneList<Item> nest = new CloneList<Item>();nest.add(words);
@@ -68,5 +68,14 @@ public class cloning {
 		CloneList<Item> cloneWords = (CloneList<Item>) words.clone(words);
 		System.out.println(words+"\n");
 		System.out.println(cloneWords+"\n");
+		
+		//
+		//!!!!!			Output spoilers			!!!!!
+		//
+		//[Yes, A short story about a rabbit that attempted to run accross the road: Splat, (this Collection)]
+		//
+		//[Yes, A short story about a rabbit that attempted to run accross the road: Splat, (this Collection)]
+
+
 	}
 }
