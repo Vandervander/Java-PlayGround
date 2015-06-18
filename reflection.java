@@ -24,7 +24,7 @@ class Foo {
 	}
 }
 
-public class Exercise{
+public class reflection{
 	public static void main(String [] arg){
 		//Make new Foo object, get its class object
 		Foo foo = new Foo();
